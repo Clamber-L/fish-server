@@ -1,0 +1,18 @@
+[package]
+name = "server-web"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lib-utils = { workspace = true }
+lib-core = { workspace = true }
+lib-entity = { workspace = true }
+
+shuttle-axum = { workspace = true }
+shuttle-runtime = { workspace = true }
+axum ={ workspace = true }
+serde = { workspace = true }
+sea-orm = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+sonyflake = { workspace = true }

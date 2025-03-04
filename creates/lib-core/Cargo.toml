@@ -1,0 +1,24 @@
+[package]
+name = "lib-core"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lib-entity ={ workspace = true }
+serde = { workspace = true }
+anyhow = { workspace = true }
+sea-orm = { workspace = true }
+lib-utils = { workspace = true }
+axum = { workspace = true }
+tracing = { workspace = true }
+thiserror = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+derive_builder = { workspace = true }
+hmac = { workspace = true }
+jwt = { workspace = true }
+sha2 = { workspace = true }
+axum-extra = { workspace = true }
+sonyflake = { workspace = true }
