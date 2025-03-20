@@ -6,6 +6,7 @@ pub use result::HttpResult;
 use serde::{Deserialize, Deserializer, Serializer};
 
 pub type Res = HttpResult<String>;
+pub type ResData<T> = HttpResult<T>;
 
 pub fn serialize_datetime_with_option<S>(
     datetime: &Option<DateTime<Utc>>,

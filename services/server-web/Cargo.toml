@@ -10,7 +10,9 @@ lib-entity = { workspace = true }
 
 shuttle-axum = { workspace = true }
 shuttle-runtime = { workspace = true }
-axum ={ workspace = true }
+axum = { workspace = true }
+axum-extra = { workspace = true }
+anyhow = { workspace = true }
 serde = { workspace = true }
 sea-orm = { workspace = true }
 tracing = { workspace = true }

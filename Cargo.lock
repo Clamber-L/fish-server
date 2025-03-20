@@ -2475,7 +2475,9 @@ version = "0.1.0"
 name = "server-web"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "axum",
+ "axum-extra",
  "lib-core",
  "lib-entity",
  "lib-utils",
